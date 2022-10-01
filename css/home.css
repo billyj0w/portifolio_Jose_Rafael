@@ -47,11 +47,24 @@
     justify-content: center;
     height: 50%;
     align-items: flex-end;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .arrow svg{
     border: 1px solid #262626;
     padding: 20px;
     border-radius: 50%;
     cursor: pointer;
+    background: #f2f2f2;
+    animation: seta 1.3s infinite;
+}
+@keyframes seta {
+    0%{
+        transform: translateY(30px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(30px);
+    }
 }
