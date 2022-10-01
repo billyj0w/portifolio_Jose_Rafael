@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+    .swiper-button-prev{
+        margin-top: -50px !important;
+    }
+    .arrowPrev svg{
+        padding: 15px;
+    }
+    .swiperImg img {
+        width: 100vw;
+    }
+    .swiperInfo {
+        flex-direction: column;
+        width: 100%;
+    }
+    .swiperInfoLeft {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .swiperInfoRight {
+        padding-left: 10px;
+    }
+    .skills {
+        flex-direction: column;
+    }
+}

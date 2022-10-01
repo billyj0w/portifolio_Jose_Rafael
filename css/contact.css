@@ -1,0 +1,46 @@
+.contact{
+    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.riscoContact{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.riscBlack {
+    background: #262626;
+    width: 2px;
+    height: 100px;
+}
+.contactText{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 0;
+    align-items: center;
+}
+.contactText h1:nth-child(1){
+    font-size: 6vmax;
+}
+.contactText h1:nth-child(2){
+    font-size: 3vmax;
+}
+.contactIcons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.contactIcons svg{
+    cursor: pointer;
+    padding: 20px 0;
+    transition: 0.4s all;
+}
+.contactIcons svg:hover{
+    scale: 1.1;
+}

@@ -1,0 +1,57 @@
+.noise::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 150vh;
+    content: "";
+    opacity: .1;
+    pointer-events: none;
+    z-index: -1;
+    background: url(../assets/noise.gif);
+}
+.bgColor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 150vh;
+    content: "";
+    pointer-events: none;
+    z-index: -2;
+    background: #fff;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.textHome{
+    display: flex;
+    color: #262626;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 5vmax;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    user-select: none;
+}
+.arrow{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.arrow svg{
+    border: 1px solid #262626;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}

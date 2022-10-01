@@ -1,0 +1,123 @@
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.titleProjects{
+    display: flex;
+    background: white;
+    border-radius: 65% 65% 0 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0;
+}
+.titleProjectsText h1{
+    font-size: 5vmax;
+}
+.titleProjectsText span{
+    color: #262626;
+    font-size: 2vmax;
+}
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+.swiper-slide {
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.swiperTitle{
+    display: flex;
+    width: 60vw;
+    font-size: 2vmax;
+}
+.swiperImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiperImg img{
+    width: 60vmax;
+}
+.swiperInfo{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0;
+    align-items: center;
+    font-size: 2vmax;
+}
+.swiperInfoLeft{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    padding-right: 40px;
+    flex-direction: column;
+}
+.swiperInfoRight{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    padding-left: 40px;
+}
+
+
+.endProjects{
+    display: flex;
+    background: white;
+    border-radius: 0 0 65% 65%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+
+
+
+
+
+
+
+
+.swiper-button-prev{
+    width: 5vmax !important;
+    margin-top: 0 !important;
+    left: 40px !important;
+    top: 20% !important;
+}
+.swiper-button-next{
+    width: 5vmax !important;
+    margin-top: 0 !important;
+    right: 40px !important;
+    top: 80% !important;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: '' !important;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: '' !important;
+}
+.arrowPrev svg{
+    transform: rotate(90deg); 
+    border: 1px solid #262626;
+    padding: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.arrowAfter svg{
+    transform: rotate(-90deg); 
+    border: 1px solid #262626;
+    padding: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}

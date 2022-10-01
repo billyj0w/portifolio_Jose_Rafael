@@ -1,0 +1,76 @@
+.otherProjects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: 0.4s all;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherProjectsItems{
+    padding: 100px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.otherProjectsItems ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}  
+.otherProjectsItems  li {
+      display: block;
+      
+      font-family: 'Stretch Pro', sans-serif;
+      position: relative;
+      font-size: 5vmax;
+      text-align: center;
+      -webkit-text-stroke: 1px #fff;
+      color: transparent;
+      z-index: 1;
+      padding: 20px;
+      user-select: none;
+      cursor:pointer;
+}
+.otherProjectsItems img {
+    position: absolute;
+    width: 20vw;
+    height: 40vh;
+    object-fit: contain;
+    transform: translateX(-50%) translateY(-50%);
+    top: 5vw;
+    left: 20vw;
+    z-index: -10;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.skills img{
+    padding: 30px;
+    width: 50px;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+.skills img:hover{
+    scale: 1.1;
+}
+.riscoEndProjects{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.risc {
+    background: white;
+    width: 2px;
+    height: 100px;
+}

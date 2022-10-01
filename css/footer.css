@@ -1,0 +1,46 @@
+footer{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footerInfo{
+    width: 100%;
+    height: auto;
+    background: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerInfo p{
+    user-select: none;
+    color: white;
+    font-size: 1.5vmax;
+}
+.footerAnimation{
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    height: auto;
+    background: white;
+    white-space: nowrap;
+    transition: all 1s ease;
+}
+.textFooterAnimation h1{
+    font-size: 2vmax;
+}
+.textFooterAnimation{
+    animation: scrollText 30s infinite linear;
+    user-select: none;
+}
+.textFooterAnimation:hover {
+  animation-play-state: paused;
+}
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

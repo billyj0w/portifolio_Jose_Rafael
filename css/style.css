@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    word-break: break-all;
+}
+body{
+    color: #262626;
+    overflow-x: hidden;
+    text-transform: uppercase;
+    background: #262626;
+}
+.fontThin{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.fontStretch{
+    font-family: 'Stretch Pro', sans-serif;
+}
