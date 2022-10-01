@@ -16,6 +16,12 @@ footer{
     user-select: none;
     color: white;
     font-size: 1.5vmax;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+.footerInfo p:hover{
+    -webkit-text-stroke: 1px white;
+    color: transparent;
 }
 .footerAnimation{
     width: 100%;
