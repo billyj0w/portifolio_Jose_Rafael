@@ -58,18 +58,16 @@
         </div>
         <div class="navBurger fontThin">
             <a class="closeMenu fontStretch">X</a>
-            <a>teste</a>
-            <a>teste</a>
-            <a>teste</a>
-            <a>teste</a>
-            <a>teste</a>
+            <a href="https://www.linkedin.com/in/jose-rafael-/" target="_blank">LINKEDIN</a>
+            <a href="https://github.com/billyj0w" target="_blank">GITHUB</a>
+            <a href="https://www.behance.net/joserafaeldesign" target="_blank">BEHANCE</a>
         </div>
     </nav>
 
     <div class="home">
         <div class="textHome fontStretch">
             <h1>Front<br/>
-                END<br/>
+                EnND<br/>
                 <span class="fontThin">DEVELOPER</span>
             </h1>
         </div>
@@ -93,7 +91,7 @@
 
               <div class="swiper-slide">
                 <div class="swiperTitle">
-                    <h1 class="fontStretch">HBO</h1>
+                    <h1 class="fontStretch">HBOO</h1>
                 </div>
                 <div class="swiperImg">
                     <img src="img/hbo01.jpg" alt="hbo">
@@ -323,7 +321,7 @@
         const menu = document.querySelector(".navText2");
         const burger = document.querySelector(".navBurger")
         const close = document.querySelector(".closeMenu");
-        const links = document.querySelectorAll("a");
+        const links = document.querySelectorAll(".navBurger a");
 
         var tl = gsap.timeline({ paused: true });
 
@@ -341,7 +339,7 @@
             duration:0,
             autoAlpha:0,
             y:20,
-            stagger:0,
+            stagger:0.1,
             opacity:0,
             ease: 'expo.inOut',
         });

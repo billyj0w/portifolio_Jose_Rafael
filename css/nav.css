@@ -30,9 +30,20 @@ nav{
     justify-content: center;
 }
 .navBurger a{
-    color: white;
     font-size: 5vmax;
+    user-select: none;
+    text-align: center;
 }
 .navBurger a:nth-child(1){
+    font-size: 6vmax;
     cursor: pointer;
+    padding-bottom: 40px;
+    background: none;
+    color: white;
+}
+
+.navBurger a{
+    color: #262626;
+    background: white;
+    width: 100%;
 }

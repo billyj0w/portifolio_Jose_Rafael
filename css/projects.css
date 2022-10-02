@@ -19,6 +19,11 @@
 .titleProjectsText span{
     color: #262626;
     font-size: 2vmax;
+    transition: 0.4s all;
+    border-bottom: 1px solid #26262600;
+}
+.titleProjectsText span:hover{
+    border-bottom: 1px solid #262626;
 }
 .swiper {
     width: 100%;
@@ -61,6 +66,16 @@
     justify-content: flex-start;
     padding-right: 40px;
     flex-direction: column;
+}
+.swiperInfoLeft a{
+    transition: 0.4s all;
+    border: 1px solid #26262600;
+    padding: 5px;
+}
+.swiperInfoLeft a:hover{
+    color: #262626;
+    border: 1px solid #262626;
+    background: #f2f2f2;
 }
 .swiperInfoRight{
     display: flex;
