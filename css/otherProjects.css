@@ -19,9 +19,8 @@
     padding: 0;
     margin: 0;
 }  
-.otherProjectsItems  li {
+.otherProjectsItems  li,.otherProjectsItems a{
       display: block;
-      
       font-family: 'Stretch Pro', sans-serif;
       position: relative;
       font-size: 5vmax;
@@ -32,6 +31,9 @@
       padding: 20px;
       user-select: none;
       cursor:pointer;
+}
+.otherProjectsItems a:hover{
+    color: #fff;
 }
 .otherProjectsItems img {
     position: absolute;
